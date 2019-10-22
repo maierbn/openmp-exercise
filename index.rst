@@ -14,8 +14,9 @@ Login
 
 .. code-block:: bash
 
+  # user account access has been disabled!
   ssh -X magic@ipvslogin.informatik.uni-stuttgart.de
-  # password: soft~2018 (password to be changed after exercise)
+  # password is secret
   ssh argon-fs
   srun -w argon-tesla1 --pty bash
 
