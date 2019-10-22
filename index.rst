@@ -14,8 +14,8 @@ Login
 
 .. code-block:: bash
 
-  ssh magic@ipvslogin
-  # password: soft.... (password to be changed after exercise)
+  ssh -X magic@ipvslogin.informatik.uni-stuttgart.de
+  # password: soft~2018 (password to be changed after exercise)
   ssh argon-fs
   srun -w argon-tesla1 --pty bash
 
